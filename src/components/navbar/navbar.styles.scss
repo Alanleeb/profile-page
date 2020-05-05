@@ -1,0 +1,61 @@
+$breakpoint: 768px;
+$breakpoint-iphone: 414px;
+
+@media (min-width: $breakpoint) {
+    .header-wrapper {
+        height: 40vh;
+        position: relative;
+      }
+     
+      .header h1{
+        color: white;
+        display: flex;
+        font-size: 35px;
+        justify-content: flex-end;
+        margin-top: 211px;
+        margin-right: 25px;
+      }
+
+      .nav-logo {
+          height: 75px;
+          width: 75px;
+      }
+     
+      .drawer-nav {
+        visibility: hidden;
+      }
+
+}
+
+@media (max-width: $breakpoint) {
+    .header-wrapper {
+        height: 30vh;
+        width: 758px;
+         position: relative;  
+      }
+      .header h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 211px;
+        margin-right: 25px;
+      } 
+}
+
+@media (max-width: $breakpoint-iphone) {
+    .header-wrapper {
+        height: 22vh;
+        width: 420px;
+      }
+      .header h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 55px;
+      } 
+      .drawer-nav {
+        visibility: visible;
+      }
+
+}
+

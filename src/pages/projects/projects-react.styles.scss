@@ -1,0 +1,49 @@
+$breakpoint: 414px;
+
+@media (min-width: $breakpoint) {
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+.card-wrapper {
+    min-width: 450px;
+    margin: 'auto';
+    background-color: #bfbdc1;
+}
+.card-title {
+    color: white;
+    background: #bfbdc1;
+    height: 176px;
+
+}
+.button-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background: #bfbdc1;
+}
+.button-wrapper a{
+    text-decoration: none;
+    color: #37323e;
+}
+}
+
+
+@media (max-width: $breakpoint) {
+    .card-title {
+        color: #fff;
+        height: 176px;
+        background: url(https://c7.uihere.com/files/994/571/805/northern-lights-landscape-vector.jpg) center / cover;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .card-wrapper {
+        min-width: 414px;
+        margin-bottom: 25px;
+    }
+ 
+    }

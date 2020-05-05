@@ -1,0 +1,162 @@
+$breakpoint: 768px;
+$breakpoint-iphone: 414px;
+
+body {
+    background-color: #37323e;
+}
+
+@media (min-width: $breakpoint) {
+.header {
+   height: 40vh;
+   background: url('../../assets/images/nature-illustration.jpg') center / contain;
+}
+.head-img {
+    height: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.content-wrapper {
+    display: flex;
+    padding: 25px;
+}
+
+.homepage-bio {
+    margin-top: 100px;
+    height: 325px;
+    width: 960px;
+    margin-left: 105px;
+    background-color: #bfbdc1;
+    border-radius: 5px;
+}
+.homepage-bio h1 {
+    color: #37323e;
+    text-align: center;
+    font-weight: bold;
+}
+.homepage-bio hr {
+    color: #37323e;
+    border-top: 5px dotted #37323e;
+    width: 50%;
+    margin: auto;
+}
+.homepage-bio p {
+    color: #37323e;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+.social-links i {
+   color: #37323e;
+   font-size: 5em;
+}
+}
+
+
+@media (max-width: $breakpoint) {
+.header {
+   height: 80px;
+   background: url('../../assets/images/nature-illustration.jpg') center / contain;
+}
+.head-img {
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-bio {
+    height: 30vh;
+    width: 100vw;
+    margin-top: 75px;
+    background-color: #bfbdc1;
+}
+.homepage-bio h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.homepage-bio hr {
+    color: white;
+    border-top: 5px dotted #37323e;
+    width: 50%;
+    margin: auto;
+}
+.homepage-bio p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links i{
+  color: white;
+  font-size: 5em;
+}
+}
+
+@media (max-width: $breakpoint-iphone) {
+    .header {
+       height: 80px;
+       background: url('../../assets/images/nature-illustration.jpg') center / contain;
+    }
+    .head-img {
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .homepage-bio {
+        height: 500px;
+        width: 414px;
+        margin-top: 75px;
+        background-color: #bfbdc1;
+    }
+    .homepage-bio h1 {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
+    .homepage-bio hr {
+        color: white;
+        border-top: 5px dotted #37323e;
+        width: 50%;
+        margin: auto;
+    }
+    .homepage-bio p {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 25px;
+        text-align: center;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .social-links i{
+      color: white;
+      font-size: 5em;
+    }
+    }

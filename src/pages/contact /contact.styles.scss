@@ -1,0 +1,42 @@
+.contact-wrapper {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 510px;
+    background:#bfbdc1;
+    color: black;
+
+}
+
+.contact-list i {
+    font-size: 40px;
+    padding-left: 25px;
+
+}
+
+.contact-grid img {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+.contact-grid p {
+    padding: 25px;
+    font-size: 25px;
+    font-weight: 400; 
+}
+
+.contact-grid hr {
+    border-bottom: 5px dotted black;
+    width: 50%;
+    margin: auto;
+
+}
