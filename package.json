@@ -2,7 +2,7 @@
   "name": "profile-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alanleeb.github.io/profile-page",
+  "homepage": "https://alanleeb.github.io/portfolio-page",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@testing-library/jest-dom": "^4.2.4",
