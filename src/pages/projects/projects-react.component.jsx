@@ -23,7 +23,7 @@ class ReactPage extends Component {
                     'imgUrl': 'https://robohash.org/6?set=set2&amp;siz=180x180',
                     'button1': 'Github',
                     'url1': 'https://github.com/Alanleeb/Monsters-rolodex',
-                    'button2': 'CodePen',
+                    'button2': 'Live Demo',
                     'url2': 'www.facebook.com',
                 },
                 {
@@ -32,7 +32,7 @@ class ReactPage extends Component {
                     'imgUrl': 'https://robohash.org/6?set=set2&amp;siz=180x180',
                     'button1': 'Github',
                     'url1': 'https://github.com/Alanleeb/Monsters-rolodex',
-                    'button2': 'CodePen',
+                    'button2': 'Live Demo',
                     'url2': 'www.facebook.com',
                 }    
             ]

@@ -16,7 +16,7 @@ const App = () => {
 <div>
     <Navbar />
     <Switch>
-      <Route exact path="/profile-page" component={HomePage} />
+      <Route exact path="/" component={HomePage} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/resume" component={Resume} />
       <Route exact path="/contact" component={Contact} />

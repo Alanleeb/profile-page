@@ -3,7 +3,7 @@ $breakpoint: 414px;
 @media (min-width: $breakpoint) {
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .card-wrapper {
     min-width: 450px;
@@ -13,6 +13,8 @@ $breakpoint: 414px;
 .card-title {
     color: white;
     background: #bfbdc1;
+    font-size: 50px;
+    font-weight: bolder;
     height: 176px;
 
 }
