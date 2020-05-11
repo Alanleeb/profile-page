@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="header-wrapper">
         <Layout className="header">
             <Header transparent linkTo="../../pages/home-page/home-page.component.jsx" 
-            title={<Link to="/"><img className="nav-logo" src={logo}  /></Link>} >
+            title={<Link to="/profile-page"><img className="nav-logo" src={logo}  /></Link>} >
                 <Navigation>
                     <Link to="projects">Projects</Link>
                     {/*<Link to="resume">Resume</Link>*/}

@@ -17,10 +17,10 @@ const App = () => {
     <Navbar />
     <Switch>
       <Route exact path="/profile-page" component={HomePage} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/resume" component={Resume} />
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/about" component={About} />
+      <Route exact path="profile-page/projects" component={Projects} />
+      <Route exact path="profile-page/resume" component={Resume} />
+      <Route exact path="profile-page/contact" component={Contact} />
+      <Route exact path="profile-page/about" component={About} />
     </Switch>
 </div>   
   );
