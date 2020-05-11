@@ -16,12 +16,12 @@ const Navbar = () => {
     <div className="header-wrapper">
         <Layout className="header">
             <Header transparent linkTo="../../pages/home-page/home-page.component.jsx" 
-            title={<Link to="/profile-page"><img className="nav-logo" src={logo}  /></Link>} >
+            title={<Link to="/"><img className="nav-logo" src={logo}  /></Link>} >
                 <Navigation>
-                    <Link to="profile-page/projects">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                     {/*<Link to="resume">Resume</Link>*/}
-                    <Link to="profile-page/about">About</Link>
-                    <Link to="profile-page/contact">Contact Me</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact Me</Link>
                 </Navigation>
             </Header>
             <h1>Alan Bischoff</h1>
@@ -30,10 +30,10 @@ const Navbar = () => {
         <Layout>
             <Drawer >
                 <Navigation>
-                    <Link to="profile-page/projects">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                      {/*<Link to="resume">Resume</Link>*/}
-                    <Link to="profile-page/about">About</Link>
-                    <Link to="profile-page/contact">Contact Me</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact Me</Link>
                 </Navigation>
             </Drawer>
            
